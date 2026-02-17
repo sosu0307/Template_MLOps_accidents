@@ -6,4 +6,4 @@
 ['remote "remote_storage"']
     url = ../../dvc_remote
 ['remote "remote_gdrive"']
-    url = gdrive://1PRgfXMhc8xAfnqlBbDLCbS-QxEuAVzrM?hl=de
+    url = gdrive://1PRgfXMhc8xAfnqlBbDLCbS-QxEuAVzrM
