@@ -1,6 +1,7 @@
 [core]
     analytics = false
-    remote = remote_storage
+    remote = dagshub
+    autostage = true
 ['remote "localremote"']
     url = ../../dvc_remote
 ['remote "remote_storage"']
@@ -8,3 +9,9 @@
 ['remote "remote_gdrive"']
     url = gdrive://1PRgfXMhc8xAfnqlBbDLCbS-QxEuAVzrM
     gdrive_use_service_account = false
+['remote "dagshub"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/sosu0307/Template_MLOps_accidents.s3
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/sosu0307/Template_MLOps_accidents.s3
